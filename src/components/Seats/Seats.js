@@ -23,7 +23,7 @@ export default function Seats({ id }) {
       Fyfan här ska vi rita platser {id}
       <ul className="seats-list">
         {data && data.hits.map(item => (
-          <li key={item.seatId} className={`seat ${item ? `${item.type.name.toLowerCase()}` : ''}`}>
+          <li key={item.seatId} className={`seat ${item && `${item.type.name.toLowerCase()}`}`}>
             {item.seatId}
           </li>
         ))}

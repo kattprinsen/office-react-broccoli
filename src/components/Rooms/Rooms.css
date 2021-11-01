@@ -18,12 +18,21 @@
 
 .room {
   border: 2px solid white;
-  cursor: pointer;
 }
 
 .room h3 {
   letter-spacing: 1px;
   text-transform: capitalize;
+}
+
+.room a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.room a:hover {
+  text-decoration: underline;
 }
 
 .room p {
