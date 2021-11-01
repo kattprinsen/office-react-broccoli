@@ -1,0 +1,19 @@
+.defaultHero,
+.showRoomsHero,
+.roomsHero {
+  min-height: calc(100vh - 66px);
+  background: url("../../assets/office-space.JPG") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomsHero {
+  background-image: url("../../assets/office-space2.JPG");
+  min-height: 60vh;
+}
+
+.showRoomsHero {
+  background-image: url("../../assets/office-space3.JPG");
+  min-height: 60vh;
+}

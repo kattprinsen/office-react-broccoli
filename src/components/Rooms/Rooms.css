@@ -1,0 +1,36 @@
+.rooms {
+  padding: 5rem 0;
+}
+
+.rooms {
+  background: #444;
+  text-align: center;
+}
+
+.rooms-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+
+.room {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.room h3 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.room p {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.room:hover {
+  border: 2px solid red;
+}
