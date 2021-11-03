@@ -35,10 +35,10 @@ export default function Graph() {
       <div className="recharts-container">
         <h4> Recharts </h4>
           <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0}}>
-          <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-          <XAxis datakey="name" />
-          <YAxis />
+            <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+            <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+            <XAxis datakey="name" />
+            <YAxis />
           </LineChart>
       </div>
     </div>
