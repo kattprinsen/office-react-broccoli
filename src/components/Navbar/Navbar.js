@@ -39,6 +39,11 @@ export default class Navbar extends Component {
                 Rooms
               </Link>
             </li>
+            <li>
+              <Link to="/graphs">
+                Graphs
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

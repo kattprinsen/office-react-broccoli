@@ -8,6 +8,7 @@ import Error from './pages/Error/Error';
 import Home from './pages/Home/Home';
 import ShowRoom from './pages/ShowRoom/ShowRoom';
 import Rooms from './pages/Rooms/Rooms';
+import Graphs from './pages/Graphs/Graphs';
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms" component={Rooms} />
+        <Route exact path="/graphs" component={Graphs} />
         <Route exact path="/rooms/:id" component={ShowRoom} />
         <Route component={Error} />
       </Switch>
